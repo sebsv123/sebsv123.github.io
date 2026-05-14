@@ -130,10 +130,19 @@ redirect_from:
 
 <div class="cv-entry">
   <div class="title">Bachelor&rsquo;s in Economics</div>
-  <div class="meta">Universidad &mdash; Madrid, Spain</div>
+  <div class="meta">Universidad Complutense de Madrid (UCM) &nbsp;·&nbsp; Madrid, Spain</div>
   <ul>
     <li>Specialized in econometrics, data analysis, and public policy</li>
     <li>Self-taught full-stack development and AI engineering in parallel</li>
+  </ul>
+</div>
+
+<div class="cv-entry">
+  <div class="title">Erasmus Exchange Year</div>
+  <div class="meta">Freie Universit&auml;t Berlin &nbsp;·&nbsp; Berlin, Germany</div>
+  <ul>
+    <li>Economics and political economy coursework in an international environment</li>
+    <li>Exposure to European tech and startup ecosystem</li>
   </ul>
 </div>
 
