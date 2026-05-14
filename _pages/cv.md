@@ -9,56 +9,43 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Experiencia
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**Full-Stack Developer & AI Engineer** — Freelance / Emprendedor *(2022 – presente)*  
+Alcorcón, Madrid, Spain
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+- Diseño y desarrollo de productos SaaS con Python (FastAPI), React y TypeScript
+- Integración de modelos de IA: OpenAI, Groq (Llama), DeepSeek, Cohere
+- Arquitectura de sistemas multi-contenedor con Docker Compose
+- Automatización de flujos con n8n y WhatsApp Business API
+- Gestión de campañas Google Ads y Meta Ads
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+---
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Proyectos destacados
+
+**ViraClip** — Plataforma de procesamiento de vídeo con IA  
+FastAPI · FFmpeg · Redis · PostgreSQL · ComfyUI · Docker · Rust
+
+**agente_seguros_ai** — Chatbot IA para el sector asegurador  
+FastAPI · n8n · Groq · DeepSeek · WhatsApp API · PostgreSQL
+
+---
+
+## Habilidades técnicas
+
+**Lenguajes:** Python, JavaScript/TypeScript, Rust, SQL, Bash  
+**Backend:** FastAPI, Node.js, REST APIs, WebSockets  
+**Frontend:** React, Tailwind CSS, Next.js  
+**Bases de datos:** PostgreSQL, Redis, Alembic  
+**DevOps:** Docker, Docker Compose, GitHub Actions, CI/CD  
+**Cloud:** Vercel, Railway, Cloudflare, Oracle Cloud  
+**IA/ML:** OpenAI API, Groq, DeepSeek, ComfyUI, FFmpeg, LTX Video  
+**Automatización:** n8n, WhatsApp Business API, Notion API  
+**Marketing:** Google Ads, Meta Ads, SEO
+
+---
+
+## Herramientas
+
+VS Code · Cursor · Windsurf · Git · Linux (AntiX) · Windows · macOS
