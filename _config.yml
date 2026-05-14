@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Sebastian Sifontes"
 title_separator          : "-"
 name                     : &name "Sebastian Sifontes"
-description              : &description "Mi sitio web personal y portafolio"
+description              : &description "Full-Stack Developer & AI Engineer | Building ViraClip and AI-powered SaaS products"
 url                      : "https://sebsv123.github.io" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sebsv123/sebsv123.github.io"
@@ -25,20 +25,20 @@ author:
   avatar           : "profile.png"
   name             : "Sebastian Sifontes"
   pronouns         : # example: "she/her"  
-  bio              : "Economista / Data Scientist"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Full-Stack Developer & AI Engineer. Building ViraClip, agente_seguros_ai and other AI-powered SaaS products."
+  location         : "Alcorcón, Madrid, Spain"
+  employer         : "Freelance / Entrepreneur"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : # add your email here
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : # URL
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : # URL
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
 
@@ -52,7 +52,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with your Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -297,7 +297,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Madrid # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
