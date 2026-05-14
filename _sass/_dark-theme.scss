@@ -1,0 +1,117 @@
+// Dark terminal theme override
+// Injected into academicpages base
+
+$bg-primary: #0d0d0d;
+$bg-secondary: #111111;
+$text-primary: #e0e0e0;
+$text-muted: #888888;
+$accent-green: #00ff88;
+$accent-blue: #00ccff;
+$border-color: #1e1e1e;
+$font-mono: 'Courier New', Courier, monospace;
+
+body {
+  background-color: $bg-primary !important;
+  color: $text-primary !important;
+}
+
+// Masthead / navbar
+.masthead {
+  background-color: #0a0a0a !important;
+  border-bottom: 1px solid $border-color !important;
+  .site-title {
+    color: $accent-green !important;
+    font-family: $font-mono !important;
+    &:hover { color: $accent-blue !important; }
+  }
+  .greedy-nav {
+    background: transparent !important;
+    a {
+      color: $text-primary !important;
+      &:hover { color: $accent-green !important; }
+    }
+  }
+}
+
+// Sidebar author profile
+.sidebar {
+  background: $bg-secondary !important;
+  border-right: 1px solid $border-color !important;
+  .author__name {
+    color: $accent-green !important;
+    font-family: $font-mono !important;
+  }
+  .author__bio {
+    color: $text-muted !important;
+    font-size: .85rem;
+  }
+  .author__urls a {
+    color: $text-primary !important;
+    &:hover { color: $accent-green !important; }
+  }
+}
+
+// Page content
+.page__content {
+  color: $text-primary !important;
+  h1, h2, h3, h4 {
+    color: $accent-green !important;
+    font-family: $font-mono !important;
+    border-bottom: 1px solid $border-color;
+    padding-bottom: .3rem;
+  }
+  a {
+    color: $accent-blue !important;
+    &:hover { color: $accent-green !important; }
+  }
+  p, li { color: $text-primary !important; }
+  code {
+    background: #1a1a1a !important;
+    color: $accent-green !important;
+    border: 1px solid $border-color;
+  }
+  pre {
+    background: #0a0a0a !important;
+    border: 1px solid $border-color;
+    code { background: transparent !important; }
+  }
+}
+
+// Page title
+.page__title {
+  color: $accent-green !important;
+  font-family: $font-mono !important;
+}
+
+// Footer
+.page__footer {
+  background: #0a0a0a !important;
+  color: $text-muted !important;
+  border-top: 1px solid $border-color !important;
+  a { color: $text-muted !important; &:hover { color: $accent-green !important; } }
+}
+
+// Archive / portfolio list
+.archive__item-title a {
+  color: $accent-green !important;
+  font-family: $font-mono !important;
+  &:hover { color: $accent-blue !important; }
+}
+.archive__item-excerpt { color: $text-muted !important; }
+
+// Buttons
+.btn {
+  background-color: transparent !important;
+  border: 1px solid $accent-green !important;
+  color: $accent-green !important;
+  &:hover {
+    background-color: $accent-green !important;
+    color: #000 !important;
+  }
+}
+
+// Scrollbar
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: $bg-primary; }
+::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: $accent-green; }
